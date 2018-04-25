@@ -160,4 +160,6 @@ def play(board)
   turn(board)
   if over?(board)
     return "We have a winner"
+  else
+    return true
 end
