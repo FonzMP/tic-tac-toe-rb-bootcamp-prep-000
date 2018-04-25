@@ -166,6 +166,6 @@ def play(board)
   elsif winner(board) == "O"
     puts "Congratulations O!"
   else
-    puts "Sorry, we have a draw!"
+    puts "Cat's Game!"
   end
 end
