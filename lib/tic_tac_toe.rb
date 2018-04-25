@@ -60,7 +60,7 @@ def turn(board)
 end
 
 def turn_count(board)
-
+  
 end
 
 def position_taken?(board, index)
