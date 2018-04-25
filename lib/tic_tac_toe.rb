@@ -157,7 +157,7 @@ def winner(board)
 end
 
 def play(board)
-  user_response = turn(board)
+  turn(board)
   until over?(board)
     turn(board)
   end
