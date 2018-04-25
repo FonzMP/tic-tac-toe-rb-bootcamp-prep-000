@@ -73,4 +73,5 @@ def turn_count(board)
       count += 1
     else
       count += 0
+    end
 end
