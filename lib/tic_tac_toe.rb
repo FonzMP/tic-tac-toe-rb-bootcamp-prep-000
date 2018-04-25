@@ -27,6 +27,16 @@ def move(board, index, var)
   board[index] = var.to_s
 end
 
+def position_taken?(board, index)
+  if board[index] == " " || board[index] == ""
+    return false
+  elsif board[index] == nil
+    return false
+  else
+    return true
+  end
+end
+
 def valid_move?(board, index)
   if index.between?(0, 8)
     if board[index] == " " || board[index] == "" || board[index] == nil
@@ -58,15 +68,5 @@ def turn(board)
 end
 
 def turn_count(board)
-  
-end
 
-def position_taken?(board, index)
-  if board[index] == " " || board[index] == ""
-    return false
-  elsif board[index] == nil
-    return false
-  else
-    return true
-  end
 end
