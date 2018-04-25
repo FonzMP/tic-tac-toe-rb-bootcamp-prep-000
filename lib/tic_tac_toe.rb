@@ -164,8 +164,8 @@ def play(board)
   if winner(board) == "X"
     puts "Congratulations X!"
   elsif winner(board) == "O"
-    return "Congratulations O!"
+    puts "Congratulations O!"
   else
-    return "Sorry, we have a draw!"
+    puts "Sorry, we have a draw!"
   end
 end
