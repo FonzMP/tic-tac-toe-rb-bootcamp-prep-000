@@ -162,4 +162,5 @@ def play(board)
     return false
   else
     turn(board)
+  end
 end
