@@ -161,7 +161,7 @@ def play(board)
     turn(board)
   end
 
-  if won?(board) == "X"
+  if winner(board) == "X"
     return "Congratulations X!"
   elsif winner(board) == "O"
     return "Congratulations O!"
