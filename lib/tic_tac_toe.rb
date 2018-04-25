@@ -161,8 +161,8 @@ def play(board)
     turn(board)
   end
 
-  if won?(board)
-    return "Congratulations " + winner(board)
+  if won?(board) == "X"
+    return "Congratulations X!" + winner(board)
   else
     return "Sorry, we have a draw!"
   end
