@@ -162,4 +162,5 @@ def play(board)
     return winner(board)
   else
     turn(board)
+  end
 end
