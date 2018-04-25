@@ -162,4 +162,5 @@ def play(board)
     return "We have a winner"
   else
     return true
+  end
 end
