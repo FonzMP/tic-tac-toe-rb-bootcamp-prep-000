@@ -158,5 +158,8 @@ end
 
 def play(board)
   turn(board)
-  over?(board)
+  if over?(board)
+    return winner(board)
+  else
+    turn(board)
 end
