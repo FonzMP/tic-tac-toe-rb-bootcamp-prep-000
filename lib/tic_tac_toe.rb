@@ -160,6 +160,6 @@ def play(board)
   if over?(board)
     return false
   else
-    return true
+    turn(board)
   end
 end
