@@ -162,7 +162,7 @@ def play(board)
   end
 
   if winner(board) == "X"
-    return "Congratulations X!"
+    puts "Congratulations X!"
   elsif winner(board) == "O"
     return "Congratulations O!"
   else
