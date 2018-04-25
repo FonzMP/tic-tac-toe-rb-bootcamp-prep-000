@@ -158,9 +158,6 @@ end
 
 def play(board)
   turn(board)
-  if winner(board) == "X" || winner(board) == "O"
-    return "We have a winner!"
-  else
-    return false
-  end
+  if over?(board)
+    return "We have a winner"
 end
