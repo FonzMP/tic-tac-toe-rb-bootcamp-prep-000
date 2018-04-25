@@ -144,3 +144,14 @@ def over?(board)
     return false
   end
 end
+
+def winner(board)
+  if won?(board)
+    board_index = won?(board)[0]
+    if board[board_index] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
+end
