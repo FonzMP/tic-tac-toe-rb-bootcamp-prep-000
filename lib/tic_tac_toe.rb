@@ -158,4 +158,6 @@ end
 
 def play(board)
   turn(board)
+  if winner(board) == "X" || winner(board) == "O"
+    return "We have a winner!"
 end
