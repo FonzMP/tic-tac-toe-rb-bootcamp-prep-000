@@ -55,7 +55,7 @@ def turn(board)
   user_index = input_to_index(user_input)
   if user_index.between?(0, 8)
     if valid_move?(board, user_index)
-      board[user_index] = "X"
+      board[user_index] = current_player(board)
       display_board(board)
     else
       puts "Sorry, that spot is taken!"
