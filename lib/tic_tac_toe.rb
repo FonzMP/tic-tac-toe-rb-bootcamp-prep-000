@@ -165,6 +165,6 @@ def play(board)
   if won?(board)
     return "Congratulations " + winner(board)
   else
-    return "Sorry, we have a draw!
-  end"
+    return "Sorry, we have a draw!"
+  end
 end
