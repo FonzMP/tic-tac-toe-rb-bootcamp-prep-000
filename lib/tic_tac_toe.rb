@@ -158,9 +158,4 @@ end
 
 def play(board)
   turn(board)
-  if !over?(board)
-    turn(board)
-  else
-    return true
-  end
 end
