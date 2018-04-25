@@ -158,5 +158,7 @@ end
 
 def play(board)
   user_response = turn(board)
-  
+  until over?(board)
+    turn(board)
+  end
 end
