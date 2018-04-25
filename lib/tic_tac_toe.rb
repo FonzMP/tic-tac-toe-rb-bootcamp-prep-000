@@ -158,5 +158,8 @@ end
 
 def play(board)
   user_response = turn(board)
-  if turn(board)
+  if user_response == over?(board)
+    return false
+  else
+    turn(board)
 end
