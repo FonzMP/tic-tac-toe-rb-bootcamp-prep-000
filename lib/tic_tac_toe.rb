@@ -158,9 +158,5 @@ end
 
 def play(board)
   turn(board)
-  if turn?(board) == valid_move?(board)
-    return winner(board)
-  else
-    turn(board)
-  end
+  
 end
