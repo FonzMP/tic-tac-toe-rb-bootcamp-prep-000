@@ -58,3 +58,13 @@ def turn(board)
     turn(board)
   end
 end
+
+def position_taken?(board, index)
+  if board[index] == " " || board[index] == ""
+    return false
+  elsif board[index] == nil
+    return false
+  else
+    return true
+  end
+end
