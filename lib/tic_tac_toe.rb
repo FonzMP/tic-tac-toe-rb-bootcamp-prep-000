@@ -70,4 +70,5 @@ end
 def turn_count(board)
   board.each do |letter|
     if letter == "X" || letter == "O"
+      count += 1
 end
