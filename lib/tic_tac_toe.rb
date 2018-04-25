@@ -157,5 +157,6 @@ def winner(board)
 end
 
 def play(board)
-  turn(board)
+  user_response = turn(board)
+  if turn(board)
 end
